@@ -3340,11 +3340,11 @@ figure.highlight pre .javascript .function {
 }
 #page-header #site-subtitle {
   color: var(--light-grey);
-  font-size: 1.15em;
+  font-size: 1.05em;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-subtitle {
-    font-size: 1.72em;
+    font-size: 1.4em;
   }
 }
 #page-header #site_social_icons {
