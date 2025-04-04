@@ -4,11 +4,11 @@
     background-color: transparent !important;
 }
 
-#footer a,
+/* #footer a,
 #footer span,
 #footer p {
     color: #000000 !important;
-}
+} */
 
 /* 链接 hover 时的样式 */
 /* #footer a:hover {
@@ -19,6 +19,8 @@
 #footer_wrap .footer_custom_text {
     color: #49B1F5 !important;
 } */
- #footer_wrap {
+/* #footer_wrap {
      --light-grey: #49B1F5 !important;
- }
+ } */
+
+/* 在源文件butterfly源文件footer中将footer-wrap的color属性有原来的var(--light-grey)改为了#49B1F5  */
