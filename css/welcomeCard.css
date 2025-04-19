@@ -18,8 +18,12 @@
 .welcome-message {
   color: #4a5568;
   margin-bottom: 1rem;
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
+  margin: 0 auto;
+  display: inline-block;
+  max-width: 100%;
   animation: typewriter 3s steps(40, end) 1s 1 normal both;
 }
 .welcome-quote {
