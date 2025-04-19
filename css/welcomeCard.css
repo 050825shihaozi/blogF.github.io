@@ -18,11 +18,9 @@
 .welcome-message {
   color: #4a5568;
   margin-bottom: 1rem;
-  text-align: center;
   white-space: nowrap;
-  position: relative;
-  opacity: 0;
-  animation: revealFromCenter 1.2s ease-out forwards;
+  overflow: hidden;
+  animation: typewriter 3s steps(40, end) 1s 1 normal both;
 }
 .welcome-quote {
   color: #4a5568;
@@ -68,67 +66,35 @@
     transform: translateY(0);
   }
 }
-@-moz-keyframes revealFromCenter {
-  0% {
-    opacity: 0;
-    letter-spacing: -0.5em;
-    transform: scaleX(0.3);
+@-moz-keyframes typewriter {
+  from {
+    width: 0;
   }
-  60% {
-    opacity: 1;
-    transform: scaleX(1.05);
-  }
-  100% {
-    opacity: 1;
-    letter-spacing: normal;
-    transform: scaleX(1);
+  to {
+    width: 100%;
   }
 }
-@-webkit-keyframes revealFromCenter {
-  0% {
-    opacity: 0;
-    letter-spacing: -0.5em;
-    transform: scaleX(0.3);
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
   }
-  60% {
-    opacity: 1;
-    transform: scaleX(1.05);
-  }
-  100% {
-    opacity: 1;
-    letter-spacing: normal;
-    transform: scaleX(1);
+  to {
+    width: 100%;
   }
 }
-@-o-keyframes revealFromCenter {
-  0% {
-    opacity: 0;
-    letter-spacing: -0.5em;
-    transform: scaleX(0.3);
+@-o-keyframes typewriter {
+  from {
+    width: 0;
   }
-  60% {
-    opacity: 1;
-    transform: scaleX(1.05);
-  }
-  100% {
-    opacity: 1;
-    letter-spacing: normal;
-    transform: scaleX(1);
+  to {
+    width: 100%;
   }
 }
-@keyframes revealFromCenter {
-  0% {
-    opacity: 0;
-    letter-spacing: -0.5em;
-    transform: scaleX(0.3);
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  60% {
-    opacity: 1;
-    transform: scaleX(1.05);
-  }
-  100% {
-    opacity: 1;
-    letter-spacing: normal;
-    transform: scaleX(1);
+  to {
+    width: 100%;
   }
 }
